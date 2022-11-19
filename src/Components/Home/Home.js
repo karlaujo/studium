@@ -5,6 +5,9 @@ import { useNavigate, useLocation } from 'react-router-dom';
 import HomeList from './HomeList'
 import useStyles from './styles';
 
+import './Home.css'
+
+
 const Home = () => {
 
     const [currentId, setCurrentId] = useState(0);
