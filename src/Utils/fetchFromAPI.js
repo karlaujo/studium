@@ -1,4 +1,5 @@
 import axios from 'axios'
+import config from '../config';
 
 // const axios = require("axios");
 
@@ -9,7 +10,7 @@ const options = {
     maxResults: '48'
   },
   headers: {
-    'X-RapidAPI-Key': "be7c418c50msha1e43daba45b312p16a697jsn6771e5be6f14",
+    'X-RapidAPI-Key': config.REACT_APP_RAPID_API_KEY,
     'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com'
   }
 };
