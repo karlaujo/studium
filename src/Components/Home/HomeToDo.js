@@ -23,16 +23,18 @@ function HomeToDo({todos, completeTodo, removeTodo, updateTodo}) {
     }
     return todos.map((todo, index) => (
         <div className={todo.isComplete ? 'todo-row complete' : 'todo-row'} 
-        key={index} onClick={() => completeTodo(todo.id)} style={{cursor: 'pointer'}}>
-            <div key={todo.id} >
+        key={index} >
+            <div onClick={() => completeTodo(todo.id)} style={{padding: '10px', margin: '0px', cursor: 'pointer', width: '80%'}} key={todo.id} >
                 {todo.text}
             </div>
-            <div className='icons'>
+            <div className='icons' >
                 <RiCloseCircleLine 
+                style={{margin:'5px'}}
                 onClick={() => removeTodo(todo.id)}
                 className='delete-icon'
                 /> 
                 <TiEdit 
+                style={{margin:'5px'}}
                 onClick={() => setEdit({ id: todo.id, value: todo.text})}
                 className='edit-icon'
                 />
