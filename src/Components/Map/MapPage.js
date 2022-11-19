@@ -188,7 +188,6 @@ function Map() {
 
     <div>
       <div style={{textAlign: 'center'}}>
-        <h1 >MAP</h1>
       </div>
         <div className={classes.map} id="map" style={{height: '75vh', width: '80%'}}>
 
