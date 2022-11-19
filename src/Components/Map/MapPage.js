@@ -10,9 +10,12 @@ import LibraryMarker from './Markers/library.svg'
 import useStyles from './styles';
 import MapStyle from './MapStyle';
 
+import config from '../../config';
+
+var key = config.REACT_APP_GOOGLE_API_KEY;
 
 const loader = new Loader({
-  apiKey: process.env.apiKey,
+  apiKey: key,
   version: 'weekly'
 })
 
