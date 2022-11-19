@@ -2,8 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-      'Lucida Sans', Arial, sans-serif;
+    font-family: 'test';
   }
   
   .todo-app {
@@ -57,6 +56,7 @@
     outline: none;
     background-color : transparent;
     font-size: 1rem;
+    color: #fff;
   }
 
   .todo-button:hover {
@@ -92,6 +92,7 @@
     display: flex;
     flex-direction: row;
     position: relative;
+    z-index: 1;
   }
   
   .todo-row {
@@ -104,45 +105,24 @@
     padding: 16px;
     border-radius: 5px;
     width: 40%;
+    z-index: 1;
   }
-  /*
-  .todo-row:nth-child(n) {
-    background: linear-gradient(
-      90deg,
-      rgba(93, 12, 255, 1) 0%,
-      rgba(155, 0, 250, 1) 100% 
-    );
-  }
-  
-   .todo-row:nth-child(4n + 2) {
-    background: linear-gradient(
-      90deg,
-      rgba(255, 12, 241, 1) 0%,
-      rgba(250, 0, 135, 1) 100%
-    );
-  }
-  
-  .todo-row:nth-child(4n + 3) {
-    background: linear-gradient(
-      90deg,
-      rgba(20, 159, 255, 1) 0%,
-      rgba(17, 122, 255, 1) 100%
-    );
-  } */
   
   .icons {
     display: flex;
     align-items: center;
     font-size: 24px;
     cursor: pointer;
-    z-index: 10;
   }
   
   .delete-icon {
     margin-right: 5px;
     color: #fff;
+    z-index: 10;
+
   }
   
   .edit-icon {
     color: #fff;
+    z-index: 10;
   }
