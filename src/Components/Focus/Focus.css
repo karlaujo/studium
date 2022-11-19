@@ -11,7 +11,9 @@
   
   body{
     background-image: url("ghibli2.jpg");
+    background-repeat: no-repeat;
     color: #eee;
+    font-family: 'test';
   }
   
   main{
@@ -19,6 +21,7 @@
     max-width: 340px;
     margin: 0 auto;
     text-align: center;
+    font-family: 'test';
   }
   
   button{
