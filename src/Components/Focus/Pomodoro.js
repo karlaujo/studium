@@ -7,6 +7,7 @@ import SkipButton from './Buttons/SkipButton';
 import SettingsButton from './Buttons/SettingsButton';
 import {useContext, useState, useEffect, useRef} from "react";
 import SettingsContext from './Settings/SettingsContext';
+import FetchQuote from './Quotes/FetchQuote';
 
 const red = '#f54e4e'
 const green = '#4aec8c'
@@ -92,8 +93,11 @@ function Pomodoro(){
                     }
                 } />
             </div>
-            <div style={{marginTop:'20px'}}>
+            <div style={{marginBottom:'20px'}}>
             <SettingsButton onClick={() => settingsInfo.setShowSettings(true)} />
+            </div>
+            <div>
+            <FetchQuote />
             </div>
         </div>
     );

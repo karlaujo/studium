@@ -14,7 +14,6 @@ function Focus() {
 
   
   return (
-    
     <main>
       <SettingsContext.Provider value={{
         showSettings,
@@ -26,8 +25,7 @@ function Focus() {
       }}>
       {showSettings ? <Settings /> : <Pomodoro />}
       </SettingsContext.Provider>
-      </main>
-      
+    </main>
   );
 }
 
