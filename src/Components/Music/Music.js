@@ -73,11 +73,13 @@ const Music = () => {
     const classes = useStyles();
 
     return (
-        <div style={{display: 'inline-block', height: 'auto', width: "100%", alignContent: 'center', backgroundColor: 'rgba(255, 255, 255, 0.7)',
+        <div style={{display: 'inline-block', height: 'auto', width: "100%",
+                     alignContent: 'center', backgroundColor: 'rgba(255, 255, 255, 0.7)',
         boxShadow: '0 10px 60px -10px rgba(13, 28, 39, .5)',
         backdropFilter: 'blur(10spx)', borderRadius: '10px'}}>
             <div style={{ padding: '10px', textAlign: 'left'}}>
-                <Card style={{maxWidth: '100px', textAlign: 'center', borderRadius: '20px', margin: '0px', backgroundColor: 'rgba(255, 255, 255, 0.7)'}}>
+                <Card style={{maxWidth: '100px', textAlign: 'center',
+                              borderRadius: '20px', margin: '0px', backgroundColor: 'rgba(255, 255, 255, 0.7)'}}>
                     <h3 style={{margin: '5px', padding: '5px', color: 'black'}}>MUSIC</h3>
                 </Card>
             </div>
