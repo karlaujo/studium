@@ -16,9 +16,9 @@ const App = () => {
             <Container  maxwidth="xl">
                 <Navbar />
                 <Routes>
+                    <Route path="/" exact element={<Home />}/>
                     <Route path="/Map" exact element={<MapPage />}/>
                     <Route path="/Focus" exact element={<Focus />}/>
-                    <Route path="/Home" exact element={<Home />}/>
 
                 </Routes>
             </Container>
