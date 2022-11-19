@@ -12,7 +12,7 @@
     justify-content: start;
     width: 520px;
     min-height: 600px;
-    background: #161a2b;
+    background: #fff;
     text-align: center;
     margin: 128px auto;
     border-radius: 10px;
@@ -21,7 +21,7 @@
   
   h1 {
     margin: 32px 0;
-    color: #161a2b;
+    color: #fff;
     font-size: 24px;
   }
   
@@ -36,44 +36,56 @@
   
   .todo-input {
     padding: 14px 32px 14px 16px;
-    border-radius: 4px 0 0 4px;
-    border: 2px solid #5d0cff;
+    border-radius: 10px 10px 10px 10px;
+    border: 2px solid #fff;
     outline: none;
     width: 320px;
-    background: transparent;
-    color: #161a2b;
+    background-color: transparent;
+    color: #fff;
+    font-size: 1rem;
   }
   
   .todo-input::placeholder {
-    color: #161a2b;
+    color: #fff;
   }
   
   .todo-button {
     padding: 16px;
     border: none;
-    border-radius: 0 4px 4px 0;
+    border-radius: 0 10px 10px 0;
     cursor: pointer;
     outline: none;
-    background: linear-gradient(
-      90deg,
-      rgba(93, 12, 255, 1) 0%,
-      rgba(155, 0, 250, 1) 100%
-    );
-    color: #fff;
-    text-transform: capitalize;
+    background-color : transparent;
+    font-size: 1rem;
+  }
+
+  .todo-button:hover {
+    background-color: rgba(255,255,255,0.1);
   }
   
   .todo-input.edit {
-    border: 2px solid #149fff;
-  }
+    padding: 14px 32px 14px 16px;
+    border-radius: 10px 10px 10px 10px;
+    border: 2px solid #fff;
+    outline: none;
+    width: 320px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 1rem;  }
   
   .todo-button.edit {
-    background: linear-gradient(
-      90deg,
-      rgba(20, 159, 255, 1) 0%,
-      rgba(17, 122, 255, 1) 100%
-    );
+    background: transparent;
     padding: 16px 22px;
+    border: #fff;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+    outline: none;
+    background-color : transparent;
+    font-size: 1rem;
+  }
+
+  .todo-button.edit:hover {
+    background: rgba(255,255,255,0.1);
   }
   
   .todo-container {
@@ -88,12 +100,7 @@
     align-items: center;
     margin: 4px auto;
     color: #fff;
-    background: linear-gradient(
-      90deg,
-      rgba(255, 118, 20, 1) 0%,
-      rgba(255, 84, 17, 1) 100%
-    );
-  
+    background: rgba(255,255,255,0.2);
     padding: 16px;
     border-radius: 5px;
     width: 90%;
