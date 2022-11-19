@@ -6,11 +6,13 @@ export default makeStyles((theme) => ({
     marginBottom: '1rem',
     display: 'flex',
     padding: '16px',
-    backgroundColor: '#f4f3ee',
+    backgroundColor: 'black',
+    color: 'black'
   },
   pagination: {
     borderRadius: 4,
-    backgroundColor: '#f4f3ee',
+    backgroundColor: 'black',
+    color: 'black',
     marginTop: '1rem',
     padding: '16px',
   },
@@ -18,11 +20,6 @@ export default makeStyles((theme) => ({
     [theme.breakpoints.down('xs')]: {
       flexDirection: 'column-reverse',
     },
-  },
-  searchButton: {
-    paddingTop: '12px',
-    color: '#f4f1bb',
-    backgroundColor: '#af4d98'
   },
   map: {
     border: '3px solid #007ea7',

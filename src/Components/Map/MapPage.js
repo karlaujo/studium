@@ -81,8 +81,8 @@ const test = async () => {
     });
 
     marker.addListener("click", () => {
-      const content = `<div id="content">` +
-                      `<h1>${university.name}</h1>` +
+      const content = `<div id="content" style={{backgroundColor:'black'}}>` +
+                      `<h2>${university.name}</h2>` +
                       `<h2>${university.type}</h2>` +
                       `<h3>${university.addresse}</h3>` +
                       `<div>${university.description}</div>` +
@@ -106,8 +106,8 @@ const test = async () => {
     });
 
     marker.addListener("click", () => {
-      const content = `<div id="content">` +
-                      `<h1>${cafe.name}</h1>` +
+      const content = `<div id="content" style={{backgroundColor:'black'}}>` +
+                      `<h2>${cafe.name}</h2>` +
                       `<h2>${cafe.type}</h2>` +
                       `<h3>${cafe.addresse}</h3>` +
                       `<div><a target="_blank" href=${cafe.website}>${cafe.website}</a></div>` +
@@ -132,8 +132,8 @@ const test = async () => {
     });
 
     marker.addListener("click", () => {
-      const content = `<div id="content">` +
-                      `<h1>${parks.name}</h1>` +
+      const content = `<div id="content" style={{backgroundColor:'black'}}>` +
+                      `<h2>${parks.name}</h2>` +
                       `<h2>${parks.type}</h2>` +
                       `<h3>${parks.addresse}</h3>` +
                       '</div>';
@@ -158,8 +158,8 @@ const test = async () => {
     });
 
     marker.addListener("click", () => {
-      const content = `<div id="content">` +
-                      `<h1>${library.name}</h1>` +
+      const content = `<div id="content" style={{backgroundColor:'black'}}>` +
+                      `<h2 style={{color: 'black'}}>${library.name}</h2>` +
                       `<h2>${library.type}</h2>` +
                       `<h3>${library.addresse}</h3>` +
                       '</div>';
@@ -187,9 +187,9 @@ function Map() {
   return (
 
     <div>
-      <div style={{textAlign: 'center'}}>
+      <div style={{textAlign: 'center', color: 'black'}}>
       </div>
-        <div className={classes.map} id="map" style={{height: '75vh', width: '80%'}}>
+        <div id="map" style={{color: 'black', height: '75vh', width: '80%'}}>
 
         </div>
     </div>
