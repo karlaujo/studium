@@ -3,6 +3,7 @@ import 'react-circular-progressbar/dist/styles.css';
 import PauseButton from './Buttons/PauseButton';
 import PlayButton from './Buttons/PlayButton';
 import ResetButton from './Buttons/ResetButton';
+import SkipButton from './Buttons/SkipButton';
 import SettingsButton from './Buttons/SettingsButton';
 import {useContext, useState, useEffect, useRef} from "react";
 import SettingsContext from './Settings/SettingsContext';
@@ -83,6 +84,7 @@ function Pomodoro(){
                 {isPaused 
                 ? <PlayButton style={{marginRight: '10px'}} onClick={() => {setisPaused(false); isPausedRef.current = false; }} /> 
                 : <PauseButton style={{marginRight: '10px'}} onClick={() => {setisPaused(true); isPausedRef.current = true; }} />}
+                <SkipButton style={{marginRight: '10px'}} /> 
                 <ResetButton onClick={() => {setisPaused(true); isPausedRef.current = true; 
                     if (mode === 'work') {
                         setSecondsLeft(settingsInfo.workMinutes * 60); secondsLeftRef.current = settingsInfo.workMinutes * 60
@@ -90,7 +92,7 @@ function Pomodoro(){
                         setSecondsLeft(settingsInfo.breakMinutes * 60); secondsLeftRef.current = settingsInfo.breakMinutes * 60
                         } 
                     }
-                } /> 
+                } />
             </div>
             <div style={{marginTop:'20px'}}>
             <SettingsButton onClick={() => settingsInfo.setShowSettings(true)} />
