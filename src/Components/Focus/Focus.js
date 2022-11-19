@@ -6,13 +6,15 @@ import SettingsContext from './Settings/SettingsContext';
 
 function Focus() {
 
+  /* App.js */
+
   const [showSettings,setShowSettings] = useState(false);
   const [workMinutes, setWorkMinutes] = useState(45);
   const [breakMinutes, setBreakMinutes] = useState(15);
 
-  // comment
+  
   return (
-    // comment
+    
     <main>
       <SettingsContext.Provider value={{
         showSettings,
@@ -25,7 +27,7 @@ function Focus() {
       {showSettings ? <Settings /> : <Pomodoro />}
       </SettingsContext.Provider>
       </main>
-      // comment
+      
   );
 }
 
