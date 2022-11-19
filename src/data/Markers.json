@@ -1,0 +1,302 @@
+{
+    "Universities" : [
+        {
+            "name" : "McGill",
+            "lat" : 45.5048,
+            "lng" : -73.5772,
+            "type" : "University",
+            "addresse" : "845 Sherbrooke St W",
+            "description" : "McGill University (French: Université McGill) is an English-language public research university located in Montreal, Quebec, Canada. Founded in 1821 by royal charter granted by King George IV,[10] the university bears the name of James McGill, a Scottish merchant whose bequest in 1813 formed the university's precursor, University of McGill College (or simply, McGill College); the name was officially changed to McGill University in 1885."
+        },
+        {
+            "name" : "Concordia",
+            "lat" : 45.4948,
+            "lng" : -73.5779,
+            "type" : "University",
+            "addresse" : "1455 Boul. de Maisonneuve Ouest",
+            "description" : "Concordia University is a public research university located in Montreal, Quebec, Canada. Founded in 1974 following the merger of Loyola College and Sir George Williams University, Concordia is one of the three universities in Quebec where English is the primary language of instruction."
+        },
+        {
+            "name" : "ETS",
+            "lat" : 45.4948,
+            "lng" : -73.5623,
+            "type" : "University",
+            "addresse" : "1100 Notre-Dame St W",
+            "description" : "École de technologie supérieure is a public engineering faculty in Montreal, Quebec, Canada. Founded in 1974, the École de technologie supérieure is a constituent of Université du Québec system."
+        },
+        {
+            "name" : "University of Montreal",
+            "lat" : 45.5027,
+            "lng" : -73.6150,
+            "type" : "University",
+            "addresse" : "2900 Bd Édouard-Montpetit",
+            "description" : "The Université de Montréal is a French-language public research university in Montreal, Quebec, Canada. The university's main campus is located in the Côte-des-Neiges neighborhood of Côte-des-Neiges–Notre-Dame-de-Grâce on Mount Royal near the Outremont Summit, in the borough of Outremont."
+        },
+        {
+            "name" : "UQAM",
+            "lat" : 45.5131,
+            "lng" : -73.5624,
+            "type" : "University",
+            "addresse" : "405 Rue Sainte-Catherine Est",
+            "description" : "The Université du Québec à Montréal, also known as UQAM, is a French-language public university based in Montreal, Quebec, Canada. It is the largest constituent element of the Université du Québec system."
+        }
+    ],
+    "Cafes" : [
+        {
+            "name" : "Café Myriade - Dominion Square",
+            "lat" : 45.50018,
+            "lng" : -73.57214,
+            "type" : "Coffee shop",
+            "addresse" : "1000 Saint-Catherine St W",
+            "website" : "http://www.cafemyriade.com/"
+        },
+        {
+            "name" : "Cafe et Crêpe",
+            "type" : "Coffee shop",
+            "lat": 45.509007,
+            "lng" : -73.5649965,
+            "addresse" : "374 Saint-Catherine St W",
+            "website" : "https://www.cafeetcrepe.ca/"
+        },
+        {
+            "name" : "Café Olimpico - Centre-Ville",
+            "type" : "Coffee shop",
+            "lat" : 45.503825,
+            "lng" : -73.5729272,
+            "addresse" : "1333 Blvd Robert-Bourassa",
+            "website" : "http://cafeolimpico.com/"
+        },
+        {
+            "name" : "Pikolo Espresso Bar",
+            "type" : "Coffee shop",
+            "lat" : 45.5063363,
+            "lng" : -73.5718784,
+            "addresse" : "1635 Rue Clark",
+            "website" : "http://pikoloespresso.com/"
+        },
+        {
+            "name" : "MELK Café Stanley",
+            "type" : "Coffee shop",
+            "lat" : 45.498706,
+            "lng" : -73.572699,
+            "addresse" : "1206 Rue Stanley",
+            "website" : "http://melk-cafe.myshopify.com/"
+        },
+        {
+            "name" : "La Finca café & marché local",
+            "type" : "Coffee shop",
+            "lat" : 45.5045166015625,
+            "lng" : -73.56317901611328,
+            "addresse" : "1067 Rue de Bleury",
+            "website" : "http://www.lafinca.ca/"
+        },
+        {
+            "name" : "diff.",
+            "type" : "Coffee shop",
+            "lat" : 45.50266,
+            "lng" : -73.562887,
+            "addresse" : "449 Av. Viger O",
+            "website" : "http://cafedifferance.ca/"
+        },
+        {
+            "name" : "Columbus Café & Co",
+            "type" : "Coffee shop",
+            "lat" : 45.506778,
+            "lng" : -73.566267,
+            "addresse" : "262 Saint-Catherine St W",
+            "website" : "http://www.columbuscafe.com/"
+        },
+        {
+            "name" : "Cafe Aunja",
+            "type" : "Coffee shop",
+            "lat" : 45.497805,
+            "lng" : -73.580106,
+            "addresse" : "1448 Sherbrooke St W",
+            "website" : "http://aunja.com/"
+        },
+        {
+            "name" : "Café Ambrose",
+            "type" : "Coffee shop",
+            "lat" : 45.501524,
+            "lng" : -73.578587,
+            "addresse" : "3422 Stanley St",
+            "website" : "http://cafeambrose.ca/"
+        },
+        {
+            "name" : "Café C C",
+            "type" : "Coffee shop",
+            "lat" : 45.499594,
+            "lng" : -73.574492,
+            "addresse" : "1440 Stanley St",
+            "website" : ""
+        },
+        {
+            "name" : "September Cafe",
+            "type" : "Coffee shop",
+            "lat" : 45.483069,
+            "lng" : -73.575268,
+            "addresse" : "2471 Notre-Dame St W",
+            "website" : "http://www.septembersurf.com/"
+        },
+        {
+            "name" : "Le macrophage",
+            "type" : "Coffee shop",
+            "lat" : 45.502916,
+            "lng" : -73.6148484,
+            "addresse" : "Pavillon Roger-Gaudry, 2900 Edouard Montpetit Blvd",
+            "website" : ""
+        },
+        {
+            "name" : "CaféKine",
+            "type" : "Coffee shop",
+            "lat" : 45.5088845,
+            "lng" : -73.6132156,
+            "addresse" : "2100 Bd Édouard-Montpetit, Montréal, QC H3T 1J4",
+            "website" : ""
+        }
+    ],
+    "Parks" : [
+        {
+            "name" : "Square Phillips",
+            "lat" : 45.5037314,
+            "lng" : -73.5770793,
+            "type" : "Park",
+            "addresse" : "Entre l’avenue Union et les rues Cathcart et place, Square Phillips, Sainte-Catherine O"
+        },
+        {
+            "name" : "Toussaint-Louverture",
+            "lat" : 45.5055661,
+            "lng" : -73.5759635,
+            "type" : "Park",
+            "addresse" : "137 Boul. de Maisonneuve E"
+        },
+        {
+            "name" : "Percy-Walters",
+            "lat" : 45.4981391,
+            "lng" : -73.5883124,
+            "type" : "Park",
+            "addresse" : "40 Av. Mcgregor, Montréal, QC H3G 2J8"
+        },
+        {
+            "name" : "Dorchester Square",
+            "lat" : 45.499569,
+            "lng" : -73.5714081,
+            "type" : "Park",
+            "addresse" : "2903 Peel St"
+        }
+    ],
+    "Libraries" : [
+        {
+            "name" : "R M Leduc & Cie",
+            "lat" : 45.5015935,
+            "lng" : -73.5730437,
+            "type" : "Library",
+            "addresse" : "1212 McGill College Ave"
+        },
+        {
+            "name" : "Webster Library",
+            "lat" : 45.496818,
+            "lng" : -73.5780714,
+            "type" : "University Library",
+            "addresse" : "Pavillion J.W. McConnell Bldg, 1400 Maisonneuve Blvd W"
+        },
+        {
+            "name" : "McLennan Library Building",
+            "lat" : 45.5031262,
+            "lng" : -73.5761814,
+            "type" : "University Library",
+            "addresse" : "3459 Mc Tavish St"
+        },
+        {
+            "name" : "Birks Reading Room",
+            "lat" : 45.5066769,
+            "lng" : -73.5773861,
+            "type" : "University Library",
+            "addresse" : "3520 Rue University"
+        },
+        {
+            "name" : "Osler Library of the History of Medicine",
+            "lat" : 45.502667,
+            "lng" : -73.582662,
+            "type" : "University Library",
+            "addresse" : "3655 Promenade Sir-William-Osler"
+        },
+        {
+            "name" : "Nahum Gelber Law Library",
+            "lat" : 45.503838,
+            "lng" : -73.581776,
+            "type" : "University Library",
+            "addresse" : "3660 Peel St"
+        },
+        {
+            "name" : "Bibliothèque des sciences de l'UQAM",
+            "lat" : 45.509358,
+            "lng" : -73.568637,
+            "type" : "University Library",
+            "addresse" : "145 du Président-Kennedy"
+        },
+        {
+            "name" : "Milton-Parc Collective Library / Bibliothèque collective de Milton-Parc",
+            "lat" : 45.5096483,
+            "lng" : -73.5742442,
+            "type" : "University Library",
+            "addresse" : "3516 Av du Parc"
+        },
+        {
+            "name" : "Grey Nuns Reading Room",
+            "lat" : 45.493616,
+            "lng" : -73.57679,
+            "type" : "University Library",
+            "addresse" : "1190 Rue Guy"
+        },
+        {
+            "name" : "Atwater Library and Computer Centre",
+            "lat" : 45.48341,
+            "lng" : -73.59918,
+            "type" : "University Library",
+            "addresse" : "1200 Atwater Ave"
+        },
+        {
+            "name" : "Bibliothèque des lettres et sciences humaines",
+            "lat" : 45.503214,
+            "lng" : -73.615099,
+            "type" : "University Library",
+            "addresse" : "3000 Rue Jean-Brillant"
+        },
+        {
+            "name" : "Librairie de l'UdeM",
+            "lat" : 45.4985755,
+            "lng" : -73.6188305,
+            "type" : "University Library",
+            "addresse" : "3200 rue Jean-Brillant Pavillon Jean-Brillant Local B-1315"
+        },
+        {
+            "name" : "Grande Bibliothèque de BAnQ",
+            "lat" : 45.515358,
+            "lng" : -73.562165,
+            "type" : "University Library",
+            "addresse" : "475 Boul. de Maisonneuve E"
+        },
+        {
+            "name" : "Bibliothèque Père-Ambroise",
+            "lat" : 45.52286,
+            "lng" : -73.562833,
+            "type" : "University Library",
+            "addresse" : "2093 Rue de la Visitation"
+        },
+        {
+            "name" : "Library of the École de Technologie Supérieure (ETS)",
+            "lat" : 45.494947,
+            "lng" : -73.562848,
+            "type" : "University Library",
+            "addresse" : "1110 Notre-Dame St W"
+        },
+        {
+            "name" : "Bibliothèque Réjean-Ducharme",
+            "lat" : 45.483542,
+            "lng" : -73.575081,
+            "type" : "University Library",
+            "addresse" : "2450 Rue Workman"
+        }
+    ]
+}
