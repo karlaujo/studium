@@ -12,7 +12,7 @@ import MapStyle from './MapStyle';
 
 
 const loader = new Loader({
-  apiKey: "AIzaSyCNeyBUPE6ktrmN9doUtzDwwySuQJXG-yc",
+  apiKey: process.env.apiKey,
   version: 'weekly'
 })
 
