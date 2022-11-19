@@ -18,6 +18,7 @@ const Navbar = () => {
             </div>
             <Button component={Link} to="/Map" variant="contained" className={classes.logout} >Map</Button>
             <Button component={Link} to="/Music" variant="contained" className={classes.logout} >Music</Button>
+            <Button component={Link} to="/Focus" variant="contained" className={classes.logout} >Focus</Button>
         </AppBar>
     )
 }
