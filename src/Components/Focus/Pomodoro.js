@@ -29,24 +29,22 @@ function Pomodoro(){
 
     function initPomodoro(){
         setSecondsLeft(settingsInfo.workMinutes * 60);
+    }
 
+    function switchMode(){
+        const nextMode = modeRef.current === 'break' ? 'work' : 'break';
+        const nextSeconds = (nextMode === 'work' ? settingsInfo.workMinutes : settingsInfo.breakMinutes) * 60;
+
+        setMode(nextMode);
+        modeRef.current = nextMode;
+
+        setSecondsLeft(nextSeconds);
+        secondsLeftRef.current = nextSeconds;
     }
     
     useEffect(() => {
         initPomodoro();
-
-        function switchMode(){
-            const nextMode = modeRef.current === 'break' ? 'work' : 'break';
-            const nextSeconds = (nextMode === 'work' ? settingsInfo.workMinutes : settingsInfo.breakMinutes) * 60;
-    
-            setMode(nextMode);
-            modeRef.current = nextMode;
-    
-            setSecondsLeft(nextSeconds);
-            secondsLeftRef.current = nextSeconds;
-        }
         
-        // need to use references instead of state variables in intervals/timeouts
         const interval = setInterval(() => {
             if(isPausedRef.current){
                 return;
@@ -66,7 +64,7 @@ function Pomodoro(){
     : settingsInfo.breakMinutes * 60
     const percentage = Math.round(secondsLeft / totalSeconds * 100) ;
 
-    const minutes = Math.floor(secondsLeft / 60); // 44.8 = 44
+    const minutes = Math.floor(secondsLeft / 60);
     let seconds = secondsLeft % 60;
     if(seconds < 10) seconds = '0' + seconds;
 
@@ -84,7 +82,7 @@ function Pomodoro(){
                 {isPaused 
                 ? <PlayButton style={{marginRight: '10px'}} onClick={() => {setisPaused(false); isPausedRef.current = false; }} /> 
                 : <PauseButton style={{marginRight: '10px'}} onClick={() => {setisPaused(true); isPausedRef.current = true; }} />}
-                <SkipButton style={{marginRight: '10px'}} /> 
+                <SkipButton onClick={() => {return switchMode(); }} /> 
                 <ResetButton onClick={() => {setisPaused(true); isPausedRef.current = true; 
                     if (mode === 'work') {
                         setSecondsLeft(settingsInfo.workMinutes * 60); secondsLeftRef.current = settingsInfo.workMinutes * 60
