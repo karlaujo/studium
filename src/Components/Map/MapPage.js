@@ -12,6 +12,22 @@ import MapStyle from './MapStyle';
 
 import config from '../../config';
 
+const getLocation = () => {
+  if (navigator.geolocation) {
+    return navigator.geolocation.getCurrentPosition(
+      showPosition,
+      (error) => console.warn(error.message),
+      {enableHighAccuracy: true, timeout: 10000});
+  }
+  return [0, 0]
+}
+
+const showPosition = (position) => {
+  // Your Code
+  localStorage.setItem('lng', position.coords.longitude)
+  localStorage.setItem('lat', position.coords.latitude)
+}
+
 var key = config.REACT_APP_GOOGLE_API_KEY;
 
 const loader = new Loader({
@@ -22,6 +38,9 @@ const loader = new Loader({
 const google = window.google;
 
 const test = async () => {
+
+  await getLocation();
+
   await loader.load().then((google) => {
 
   var map = new google.maps.Map(document.getElementById("map"), {
@@ -35,6 +54,18 @@ const test = async () => {
     content: "",
     disableAutoPan: true,
   });
+
+  const image = UniMarker;
+
+  console.log(localStorage.getItem('lng'));
+  console.log(localStorage.getItem('lat'));
+
+  const userMarker = new google.maps.Marker({
+    map: map,
+    label: "user",
+    position: {lng: Number(localStorage.getItem('lng')),
+              lat: Number(localStorage.getItem('lat'))},
+  })
 
   const labels = "";
   var universityMarkers = [];

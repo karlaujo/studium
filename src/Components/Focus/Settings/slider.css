@@ -8,8 +8,8 @@
 .thumb{
     background-color: var(--red);
     cursor: pointer;
-    width: 40px;
-    height: 40px;
+    width: 12%;
+    height: 100%;
     border-radius: 20px;
 }
 
