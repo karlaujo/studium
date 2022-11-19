@@ -2,6 +2,7 @@ import React from "react";
 import { Container } from '@material-ui/core';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import MapPage from './Components/Map/MapPage';
+import Music from './Components/Music/Music';
 import Navbar from "./Components/Navbar/Navbar";
 import './App.css';
 
@@ -15,6 +16,7 @@ const App = () => {
                 <Navbar />
                 <Routes>
                     <Route path="/Map" exact element={<MapPage />}/>
+                    <Route path="/Music" exact element={<Music />}/>
                 </Routes>
             </Container>
         </BrowserRouter>
