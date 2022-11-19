@@ -16,6 +16,7 @@ const Navbar = () => {
                 <img className={classes.image} src={eye} alt="eye" height="80" />
                 <Typography component={Link} to="/" className={classes.heading} variant="h2" align="center">studium</Typography>
             </div>
+            <Button component={Link} to="/" variant="contained" className={classes.logout} >Home</Button>
             <Button component={Link} to="/Map" variant="contained" className={classes.logout} >Map</Button>
             <Button component={Link} to="/Music" variant="contained" className={classes.logout} >Music</Button>
             <Button component={Link} to="/Focus" variant="contained" className={classes.logout} >Focus</Button>
