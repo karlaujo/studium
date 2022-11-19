@@ -7,10 +7,12 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-color: black;
-    background-image: url("ghibli2.jpg");
     color: #eee;
+    background-image: url("ghibli2.jpg");
+
   }
-  
+
+
   main{
     /* padding-top: 20px; */
     max-width: 340px;

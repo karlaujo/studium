@@ -5,6 +5,10 @@
     font-family: 'test';
   }
   
+  body{
+    background-image: url("ghibli1.png");
+  }
+
   .todo-app {
     display: flex;
     flex-direction: column;
