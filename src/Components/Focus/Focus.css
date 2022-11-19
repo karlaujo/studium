@@ -2,23 +2,22 @@
     --red: #f54e4e;
     --green: #4aec8c;
   }
-
+  
   body{
     background-size: cover;
     background-repeat: no-repeat;
     background-color: black;
-    /* background-position: 50% 50%; */
-    background-image: url("ghibli2.jpg");
+    background-position: 50% 50%;    background-image: url("ghibli2.jpg");
     color: #eee;
   }
-
+  
   main{
     /* padding-top: 20px; */
     max-width: 340px;
     margin: 0 auto;
     text-align: center;
   }
-
+  
   button{
     background-color: transparent;
     color: rgba(255,255,255,0.8);
@@ -31,7 +30,7 @@
   button:hover{
     background-color: #2d3647;
   }
-
+  
   button.with-text{
     width: auto;
     background-color: transparent;
@@ -39,23 +38,24 @@
     padding: 10px 20px;
     font-size: 1.4rem;
     line-height: 36px;
+    font-family: 'test';
   }
 
-  button.with-text:hover{
-    background-color: rgba(255,255,255,0.1);
-    /* background-color: #2d3647; */
-  }
+button.with-text:hover{
+  background-color: rgba(255,255,255,0.1);
+  /* background-color: #2d3647; */
+}
 
-  button.with-text svg{
-    width: 36px;
-    float: left;
-    margin-right: 5px;
-  }
+button.with-text svg{
+  width: 36px;
+  float: left;
+  margin-right: 5px;
+}
 
-  label{
-    text-align: center;
-    display: block;
-    margin-bottom: 10px;
-    margin-top: 20px;
-    text-transform: capitalize;
-  }
+label{
+  text-align: center;
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  text-transform: capitalize;
+}
