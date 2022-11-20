@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# Welcome to Studium
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Inspiration
 
-## Available Scripts
+The inspiration for this website came when considering our lives as students. Everyday we are presented with challenges, and anything that can help overcome these challenges is welcome.
 
-In the project directory, you can run:
+## What it does
 
-### `npm start`
+The Studium suite groups the features of other student websites into one. First, the home page lets the user input a list of to-dos for the day. These to-dos are saved for the duration of the session. The second page is a timer page, it features a timer that alters between work and break. Users can edit the length of work and break time as well. The third page is a map page. This map shows the user a map of Montreal with markers showing universities, libraries, cafes, and parks near the universities of the Island. The final page is a music playlist page. On this page the student can browse through over 10 genres of music, ranging from vaporwave, cafe ambience, to white noise and classical. Each category presents 50 different playlist videos.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## How we built it
+The page was built using the React JavaScript Library, along with material-ui components. Features like the todo page use localStorage.
+The Focus page uses packages such as 'react-circular-progressbar' and 'react-slider' for the UI and design. The svg icons for our buttons were from heroicons.
+The Home page was built using React with Hooks such as useState() and useEffect() to make a dynamic to do list that is refresh proof for storage.  Everything was then styled with css files to make everything user friendly and with as little resistance as possible. The Map page was implemented using the Google Map API offered online by Google. The music page was built using a Rapid API to fetch randomized Youtube playlists. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Challenges we ran into
 
-### `npm test`
+We faced several challenges, most of the team members had little experience with React and were learning mostly from the start. We faced other issues like familiarizing ourselves with foreign APIs and new components. Implementing a clean UI also took effort.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Accomplishments that we're proud of
 
-### `npm run build`
+We're proud of the fact we managed to design and develop this application in 36 hours. This is our first hackathon and we look forward to the next!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## What we learned
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+We learned how to code in JavaScript using ReactJS. We learned about using new APIs online. We also experimented with persistent data and user interaction.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## What's next for Studium
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+We hope to host the application online and introduce user accounts. This would allow the application to get one step closer with the user, allowing them to tailor the services of their app based on their preferences and save them.
