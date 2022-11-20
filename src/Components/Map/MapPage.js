@@ -187,9 +187,9 @@ function Map() {
   return (
 
     <div>
-      <div style={{textAlign: 'center', color: 'black'}}>
+      <div style={{textAlign: 'center'}}>
       </div>
-        <div id="map" style={{color: 'black', height: '75vh', width: '80%'}}>
+        <div id="map" className={classes.map} style={{color: 'black', height: '75vh', width: '80%'}}>
 
         </div>
     </div>
