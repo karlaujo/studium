@@ -12,9 +12,9 @@ function Focus() {
   const [workMinutes, setWorkMinutes] = useState(45);
   const [breakMinutes, setBreakMinutes] = useState(15);
 
-  
+
   return (
-    <main>
+    <main className='andre'>
       <SettingsContext.Provider value={{
         showSettings,
         setShowSettings,

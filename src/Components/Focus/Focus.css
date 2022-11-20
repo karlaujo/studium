@@ -2,7 +2,7 @@
     --red: #f54e4e;
     --green: #4aec8c;
   }
-  
+
   body{
     background-image: url("ghibli2.jpg");
     background-size: 100% auto;
@@ -17,7 +17,7 @@
     margin: 0 auto;
     text-align: center;
   }
-  
+
   button{
     background-color: transparent;
     color: rgba(255,255,255,0.8);
@@ -30,7 +30,7 @@
   button:hover{
     background-color: #2d3647;
   }
-  
+
   button.with-text{
     width: auto;
     background-color: transparent;
