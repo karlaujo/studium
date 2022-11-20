@@ -86,7 +86,7 @@ const Music = () => {
 
             <div className={classes.topDiv}>
                 <Tabs className={classes.tabs} variant="scrollable" value={value} onChange={handleChange} aria-label="basic tabs example">
-                    {/* 9 tabs  */}
+                    {/* 12 tabs  */}
                     <Tab label="Trip Hop" />
                     <Tab label="Instrumental" />
                     <Tab label="Best Of" />
