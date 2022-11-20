@@ -3,8 +3,7 @@ import React from 'react'
 import { useState, useEffect, useRef } from 'react'
 
 function HomeForm(props) {
-const[input, setInput] = useState(props.edit ? props.edit.value 
-    : '');
+const[input, setInput] = useState(props.edit ? props.edit.value : '');
 
 const inputRef = useRef(null)
 
@@ -41,8 +40,7 @@ const handleSubmit = e => {
         />
         <button className='todo-button edit'>Update</button>
         </>
-        ) :
-        (
+        ) : (
         <>
         <input 
             type='text' 
