@@ -14,7 +14,7 @@ function Focus() {
   const [breakMinutes, setBreakMinutes] = useState(15);
   
   return (
-    <main>
+    <main className='andre'>
       <SettingsContext.Provider value={{
         showSettings,
         setShowSettings,
