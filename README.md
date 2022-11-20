@@ -28,3 +28,8 @@ We learned how to code in JavaScript using ReactJS. We learned about using new A
 ## What's next for Studium
 
 We hope to host the application online and introduce user accounts. This would allow the application to get one step closer with the user, allowing them to tailor the services of their app based on their preferences and save them.
+
+![mappage](https://user-images.githubusercontent.com/63167805/202910083-110001c7-ee69-40e0-94c5-3b112294a85b.jpg)
+![homepage](https://user-images.githubusercontent.com/63167805/202910084-aa1eba0d-2958-4468-953e-d565be4ec52a.jpg)
+![focuspage](https://user-images.githubusercontent.com/63167805/202910085-f1128d1f-8b22-4400-a7d9-53b7cb7bae5d.jpg)
+![musicpage](https://user-images.githubusercontent.com/63167805/202910086-71698537-943f-4747-a97b-177cc6357167.jpg)
