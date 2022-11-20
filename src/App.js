@@ -21,7 +21,6 @@ const App = () => {
                     <Route path="/Map" exact element={<MapPage />}/>
                     <Route path="/Music" exact element={<Music />}/>
                     <Route path="/Focus" exact element={<Focus />}/>
-
                 </Routes>
             </Container>
         </BrowserRouter>
