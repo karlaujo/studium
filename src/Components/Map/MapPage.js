@@ -62,9 +62,20 @@ const test = async () => {
 
   const userMarker = new google.maps.Marker({
     map: map,
-    label: "user",
+    icon: {
+      url: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png"
+    },
     position: {lng: Number(localStorage.getItem('lng')),
               lat: Number(localStorage.getItem('lat'))},
+  })
+
+  userMarker.addListener("click", () => {
+    const content = `<div id="content" style={{backgroundColor:'black'}}>` +
+                    `<h2>That's you! (approximately)</h2>` +
+                    '</div>';
+
+      infoWindow.setContent(content);
+      infoWindow.open(map, userMarker)
   })
 
   const labels = "";
