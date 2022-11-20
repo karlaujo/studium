@@ -97,7 +97,7 @@ function Pomodoro(){
             <SettingsButton onClick={() => settingsInfo.setShowSettings(true)} />
             </div>
             <div>
-            <FetchQuote />
+            <FetchQuote/>
             </div>
         </div>
     );
