@@ -3,6 +3,7 @@ import Pomodoro from './Pomodoro';
 import Settings from './Settings/Settings';
 import {useState} from "react";
 import SettingsContext from './Settings/SettingsContext';
+import { FullScreen, useFullScreenHandle } from "react-full-screen";
 
 function Focus() {
 
@@ -11,8 +12,7 @@ function Focus() {
   const [showSettings,setShowSettings] = useState(false);
   const [workMinutes, setWorkMinutes] = useState(45);
   const [breakMinutes, setBreakMinutes] = useState(15);
-
-
+  
   return (
     <main className='andre'>
       <SettingsContext.Provider value={{

@@ -56,7 +56,11 @@ export default makeStyles((theme) => ({
     color: '#f4f1bb',
     fontFamily: 'test',
     backgroundColor: '#084698',
+    borderRadius : '8px',
     padding: '5px',
-    margin: '0px'
+    margin: '0px',
+    height: '50px',
+    width: '100px'
+
    },
 }));
