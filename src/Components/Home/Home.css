@@ -79,7 +79,7 @@
   
   .todo-button.edit {
     background: transparent;
-    padding: 16px 22px;
+    padding: 22px 22px;
     border: #fff;
     border-radius: 0 10px 10px 0;
     cursor: pointer;
@@ -103,12 +103,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 4px auto;
+    margin: 10px auto;
     color: #fff;
     background: rgba(255,255,255,0.2);
-    padding: 16px;
+    padding: 12px;
     border-radius: 10px;
-    width: 40%;
+    width: 50%;
     z-index: 1;
   }
   
