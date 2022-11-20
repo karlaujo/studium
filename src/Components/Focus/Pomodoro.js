@@ -9,6 +9,7 @@ import {useContext, useState, useEffect, useRef} from "react";
 import SettingsContext from './Settings/SettingsContext';
 import FetchQuote from './Quotes/FetchQuote';
 
+
 const red = '#f54e4e'
 const green = '#4aec8c'
 
@@ -70,7 +71,8 @@ function Pomodoro(){
     if(seconds < 10) seconds = '0' + seconds;
 
     return(
-        <div>
+        <div classname="focus">
+
             <CircularProgressbar 
             value={percentage} 
             text={minutes + ':' + seconds} 
